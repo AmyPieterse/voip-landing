@@ -4,9 +4,398 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>VoIP Solutions South Africa - From R49/Month</title>
 </head>
 <body>
-    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-phone-alt"></i>
+                <span>SmartVoIP SA</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contactForm" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Form -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>South Africa's #1 VoIP Provider</span>
+                </div>
+                <h1 class="main-headline">Ditch the Landline. Embrace Smart Calling from Just R49/Month.</h1>
+                <p class="hero-subtitle">Stay connected—anywhere, anytime—with the cheapest VoIP call rates in South Africa.</p>
+                
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Crystal Clear Quality</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>No Setup Fees</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <div class="form-header">
+                    <h2 class="form-title">Get Started Today</h2>
+                    <p class="form-subtitle">Enter your details and we'll help you make the switch.</p>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                            <i class="fas fa-user form-icon"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            <i class="fas fa-envelope form-icon"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        <i class="fas fa-phone form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Are you interested in VoIP for:</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="interest" value="business" required>
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">Business</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="interest" value="home" required>
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">Home / Family</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="interest" value="both" required>
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">Both</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your communication needs..." rows="3"></textarea>
+                        <i class="fas fa-comment form-icon"></i>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <i class="fas fa-rocket"></i>
+                        Get Free Quote
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: The Entrepreneur's Dream -->
+    <section id="features" class="feature-section entrepreneur-section">
+        <div class="section-container">
+            <div class="content-grid">
+                <div class="content-text">
+                    <div class="section-badge">
+                        <i class="fas fa-briefcase"></i>
+                        <span>For Business</span>
+                    </div>
+                    <h2 class="section-title">The Entrepreneur's Dream</h2>
+                    <h3 class="section-subtitle">A Tale of Two Businesses—And One Smart Choice</h3>
+                    <p class="section-content">Thabo and Sipho both started businesses. One stuck with a traditional landline, the other embraced VoIP. Sipho's smart decision meant lower bills, mobility, and happier clients. You don't need to be chained to high costs—switch to VoIP for as little as R49/month.</p>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Reduce costs by up to 70%</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Take calls anywhere</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-users"></i>
+                            <span>Scale with your business</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#contactForm" class="cta-button">
+                        <i class="fas fa-arrow-right"></i>
+                        See How VoIP Can Help You Succeed
+                    </a>
+                </div>
+                <div class="content-image">
+                    <img src="https://images.pexels.com/photos/19506332/pexels-photo-19506332.jpeg" alt="Professional VoIP communication technology">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-phone-volume"></i>
+                            <span>Professional Grade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: The Family Connection -->
+    <section class="feature-section family-section">
+        <div class="section-container">
+            <div class="content-grid reverse">
+                <div class="content-image">
+                    <img src="https://images.pexels.com/photos/6033612/pexels-photo-6033612.jpeg" alt="Family enjoying video calls and communication">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-heart"></i>
+                            <span>Stay Connected</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-text">
+                    <div class="section-badge">
+                        <i class="fas fa-home"></i>
+                        <span>For Family</span>
+                    </div>
+                    <h2 class="section-title">The Family Connection</h2>
+                    <h3 class="section-subtitle">Talk More. Worry Less.</h3>
+                    <p class="section-content">Long-distance family chats don't have to feel like a luxury. Our VoIP plans help you connect with loved ones across South Africa at the lowest rates available. Stay close to the people that matter most—without breaking the bank.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">85%</div>
+                            <div class="stat-label">Savings on calls</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Available support</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-label">Uptime guarantee</div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contactForm" class="cta-button">
+                        <i class="fas fa-arrow-right"></i>
+                        Explore Affordable Calling Options
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: The Freedom to Roam -->
+    <section class="feature-section freedom-section">
+        <div class="section-container">
+            <div class="content-grid">
+                <div class="content-text">
+                    <div class="section-badge">
+                        <i class="fas fa-globe"></i>
+                        <span>Mobility</span>
+                    </div>
+                    <h2 class="section-title">The Freedom to Roam</h2>
+                    <h3 class="section-subtitle">Your Number. Your Rules.</h3>
+                    <p class="section-content">Work from home, a coffee shop, or across the country—your VoIP number goes wherever you go. No more missing calls. No more rigid landlines. Just pure freedom.</p>
+                    
+                    <div class="feature-cards">
+                        <div class="feature-card">
+                            <i class="fas fa-laptop"></i>
+                            <h4>Desktop Apps</h4>
+                            <p>Full-featured calling from your computer</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Mobile Apps</h4>
+                            <p>Take your office phone anywhere</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-headset"></i>
+                            <h4>Web Interface</h4>
+                            <p>Manage calls from any browser</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#contactForm" class="cta-button">
+                        <i class="fas fa-arrow-right"></i>
+                        Discover Mobile-Friendly VoIP
+                    </a>
+                </div>
+                <div class="content-image">
+                    <img src="https://images.pexels.com/photos/7567537/pexels-photo-7567537.jpeg" alt="Remote work and mobile communication">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-wifi"></i>
+                            <span>Work Anywhere</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: The Sound of Savings -->
+    <section class="feature-section savings-section">
+        <div class="section-container">
+            <div class="content-grid reverse">
+                <div class="content-image">
+                    <img src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg" alt="Financial savings and cost reduction">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fas fa-piggy-bank"></i>
+                            <span>Save Money</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-text">
+                    <div class="section-badge">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Savings</span>
+                    </div>
+                    <h2 class="section-title">The Sound of Savings</h2>
+                    <h3 class="section-subtitle">The Only Quiet Thing is the Bill.</h3>
+                    <p class="section-content">No more end-of-month dread. With VoIP, your bill stays low and predictable, with no nasty surprises. Thousands of South Africans are already enjoying smart, stress-free calling.</p>
+                    
+                    <div class="pricing-highlight">
+                        <div class="price-comparison">
+                            <div class="old-price">
+                                <span class="price-label">Traditional Landline</span>
+                                <span class="price-amount">R299+/month</span>
+                            </div>
+                            <div class="arrow">→</div>
+                            <div class="new-price">
+                                <span class="price-label">Our VoIP Plans</span>
+                                <span class="price-amount">From R49/month</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contactForm" class="cta-button">
+                        <i class="fas fa-arrow-right"></i>
+                        Start Saving Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="pricing" class="final-cta-section">
+        <div class="section-container">
+            <div class="cta-content">
+                <div class="cta-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h2 class="final-cta-title">Why Wait? Start Calling Smarter Today.</h2>
+                <p class="final-cta-content">Whether for work or for family, our plans start at just R49/month. It's time to make the switch.</p>
+                
+                <div class="cta-buttons">
+                    <a href="#contactForm" class="final-cta-button primary">
+                        <i class="fas fa-comments"></i>
+                        Talk to Us
+                    </a>
+                    <a href="tel:+27123456789" class="final-cta-button secondary">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>SmartVoIP SA</span>
+                    </div>
+                    <p class="footer-description">South Africa's leading VoIP provider, connecting businesses and families with affordable, reliable communication solutions since 2020.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Business VoIP</a></li>
+                        <li><a href="#">Residential Plans</a></li>
+                        <li><a href="#">International Calling</a></li>
+                        <li><a href="#">Virtual Numbers</a></li>
+                        <li><a href="#">Call Forwarding</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Setup Guide</a></li>
+                        <li><a href="#">24/7 Support</a></li>
+                        <li><a href="#">System Status</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+27 11 123 4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>support@smartvoipsa.co.za</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cape Town, South Africa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 SmartVoIP SA. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="code.js"></script>
 </body>
 </html>

@@ -112,13 +112,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Add parallax effect to hero section (subtle)
-    window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const heroSection = document.querySelector('.hero-section');
-        
-        if (heroSection && scrolled < window.innerHeight) {
-            heroSection.style.transform = `translateY(${scrolled * 0.3}px)`;
-        }
-    });
+    // Removed parallax effect to fix scrolling issues
 });
